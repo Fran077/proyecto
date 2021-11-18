@@ -21,6 +21,7 @@ CREATE TABLE Region (
 CREATE TABLE Pokemon (
     Pokedex SMALLINT(3) AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(30),
+    info TEXT,
     HP SMALLINT(3),
     ATAQUE SMALLINT(3),
     DEFENSA SMALLINT(3),
@@ -35,7 +36,7 @@ CREATE TABLE Evolucion (
     id_pkmn_evo SMALLINT,
     CONSTRAINT pokemon_fk4 FOREIGN KEY (Pokedex) REFERENCES Pokemon(Pokedex),
     CONSTRAINT pokemon_fk5 FOREIGN KEY (id_pkmn_evo) REFERENCES Pokemon(Pokedex),
-    PRIMARY KEY (id_pkmn, id_pkmn_evo)
+    PRIMARY KEY (Pokedex, id_pkmn_evo)
 );
 
 CREATE TABLE Pokemon_Tipo (
@@ -60,7 +61,7 @@ CREATE TABLE Ciudades (
     id_ciudad SMALLINT PRIMARY KEY AUTO_INCREMENT,
     Nombre VARCHAR(20),
     id_region TINYINT,
-    CONSTRAINT inicial_fk3 FOREIGN KEY (id_region) REFERENCES Region(id_region)
+    CONSTRAINT inicial_fk4 FOREIGN KEY (id_region) REFERENCES Region(id_region)
 );
 
 CREATE TABLE Lideres (
@@ -83,18 +84,18 @@ CREATE TABLE Rutas (
     id_ruta SMALLINT PRIMARY KEY AUTO_INCREMENT,
     Número SMALLINT,
     id_region TINYINT,
-    CONSTRAINT inicial_fk3 FOREIGN KEY (id_region) REFERENCES Region(id_region)
+    CONSTRAINT inicial_fk5 FOREIGN KEY (id_region) REFERENCES Region(id_region)
 );
 
 CREATE TABLE LugaresImp (
     id_lugarimp SMALLINT PRIMARY KEY AUTO_INCREMENT,
     Nombre VARCHAR(25),
     id_region TINYINT,
-    CONSTRAINT inicial_fk3 FOREIGN KEY (id_region) REFERENCES Region(id_region)
+    CONSTRAINT inicial_fk6 FOREIGN KEY (id_region) REFERENCES Region(id_region)
 );
 
 CREATE TABLE Ruta_Pokemon (
-    id_ruta TINYINT,
+    id_ruta SMALLINT,
     Pokedex SMALLINT,
     CONSTRAINT ruta_fk FOREIGN KEY (id_ruta) REFERENCES Rutas(id_ruta),
     CONSTRAINT pkmn_fk FOREIGN KEY (Pokedex) REFERENCES Pokemon(Pokedex),
@@ -102,7 +103,7 @@ CREATE TABLE Ruta_Pokemon (
 );
 
 CREATE TABLE LugaresImp_Pokemon (
-    id_lugarimp TINYINT,
+    id_lugarimp SMALLINT,
     Pokedex SMALLINT,
     CONSTRAINT lugarimp_fk FOREIGN KEY (id_lugarimp) REFERENCES LugaresImp(id_lugarimp),
     CONSTRAINT pkmn_fk2 FOREIGN KEY (Pokedex) REFERENCES Pokemon(Pokedex),
