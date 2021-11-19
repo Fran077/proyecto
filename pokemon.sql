@@ -10,7 +10,8 @@ CREATE TABLE Tipos (
 
 CREATE TABLE Profesor (
     id_prof TINYINT PRIMARY KEY AUTO_INCREMENT,
-    Nombre VARCHAR(20)
+    Nombre VARCHAR(20),
+    info LONGTEXT
 );
 
 CREATE TABLE Region (
@@ -21,7 +22,7 @@ CREATE TABLE Region (
 CREATE TABLE Pokemon (
     Pokedex SMALLINT(3) AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(30),
-    info TEXT,
+    info LONGTEXT,
     HP SMALLINT(3),
     ATAQUE SMALLINT(3),
     DEFENSA SMALLINT(3),
@@ -61,12 +62,14 @@ CREATE TABLE Ciudades (
     id_ciudad SMALLINT PRIMARY KEY AUTO_INCREMENT,
     Nombre VARCHAR(20),
     id_region TINYINT,
+    info LONGTEXT,
     CONSTRAINT inicial_fk4 FOREIGN KEY (id_region) REFERENCES Region(id_region)
 );
 
 CREATE TABLE Lideres (
     id_lider TINYINT PRIMARY KEY AUTO_INCREMENT,
     Nombre VARCHAR(15),
+    info LONGTEXT,
     Medalla VARCHAR(15),
     id_ciudad SMALLINT,
     CONSTRAINT ciudad_fk FOREIGN KEY (id_ciudad) REFERENCES Ciudades(id_ciudad)
@@ -91,6 +94,7 @@ CREATE TABLE LugaresImp (
     id_lugarimp SMALLINT PRIMARY KEY AUTO_INCREMENT,
     Nombre VARCHAR(25),
     id_region TINYINT,
+    info LONGTEXT,
     CONSTRAINT inicial_fk6 FOREIGN KEY (id_region) REFERENCES Region(id_region)
 );
 
@@ -113,6 +117,7 @@ CREATE TABLE LugaresImp_Pokemon (
 CREATE TABLE AltoMando (
     id_alto TINYINT PRIMARY KEY AUTO_INCREMENT,
     Nombre VARCHAR(20),
+    info LONGTEXT,
     id_lugarimp SMALLINT,
     CONSTRAINT alto_fk FOREIGN KEY (id_lugarimp) REFERENCES LugaresImp(id_lugarimp)
 );
