@@ -151,33 +151,33 @@ INSERT INTO Tipos (Nombre) VALUES ('Tierra');
 INSERT INTO Tipos (Nombre) VALUES ('Veneno');
 INSERT INTO Tipos (Nombre) VALUES ('Volador');
 --id_profesor, nombre
-INSERT INTO Profesor (Nombre, info) VALUES ('Oak');
+INSERT INTO Profesor (Nombre, info) VALUES ('Oak', 'Estudia a los Pokémon y es reconocido como la mayor eminencia en cuanto a Pokémon se refiere, por ello es conocido como el Profesor Pokémon. Al comenzar tu aventura te entrega uno de los Pokémon iniciales');
 --id_region, nombre
-INSERT INTO Region (Nombre, info) VALUES ('Kanto');
+INSERT INTO Region (Nombre) VALUES ('Kanto');
 --id_pkmn, nombre, pokedex, hp, at, def, ae, de, vel, total_stat
 --1º Gen
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Bulbasaur', 45, 49, 49, 65, 65, 45, 318);
+VALUES ('Bulbasaur', 'Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo.', 45, 49, 49, 65, 65, 45, 318);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Ivysaur', 60, 62, 63, 80, 80, 60, 405); 
+VALUES ('Ivysaur', 'Cuando le crece bastante el bulbo del lomo, pierde la capacidad de erguirse sobre las patas traseras.', 60, 62, 63, 80, 80, 60, 405); 
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Venusaur', 80, 82, 83, 100, 100, 80, 525);
+VALUES ('Venusaur', 'La planta florece cuando absorbe energía solar, lo cual le obliga a buscar siempre la luz del sol.', 80, 82, 83, 100, 100, 80, 525);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Charmander', 39, 52, 43, 60, 50, 65, 309);
+VALUES ('Charmander', 'Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la punta de la cola.', 39, 52, 43, 60, 50, 65, 309);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Charmeleon', 58, 64, 58, 80, 65, 80, 405);
+VALUES ('Charmeleon', 'Este Pokémon de naturaleza agresiva ataca en combate con su cola llameante y hace trizas al rival con sus afiladas garras.', 58, 64, 58, 80, 65, 80, 405);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Charizard', 78, 84, 78, 109, 85, 100, 534);
+VALUES ('Charizard', 'Escupe un fuego tan caliente que funde las rocas. Causa incendios forestales sin querer.', 78, 84, 78, 109, 85, 100, 534);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Squirtle', 44, 48, 65, 50, 64, 43, 314);
+VALUES ('Squirtle', 'Cuando retrae su largo cuello en el caparazón, dispara agua a una presión increíble.', 44, 48, 65, 50, 64, 43, 314);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Wartortle', 59, 63, 80, 65, 80, 58, 405);
+VALUES ('Wartortle', 'Se lo considera un símbolo de longevidad. Los ejemplares más ancianos tienen musgo sobre el caparazón.', 59, 63, 80, 65, 80, 58, 405);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Blastoise', 79, 83, 100, 85, 105, 78, 530);
+VALUES ('Blastoise', 'Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro, se esconde en el caparazón.', 79, 83, 100, 85, 105, 78, 530);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Caterpie', 45, 30, 35, 20, 20, 45, 195);
+VALUES ('Caterpie', 'Para protegerse, despide un hedor horrible por las antenas con el que repele a sus enemigos.', 45, 30, 35, 20, 20, 45, 195);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Metapod', 50, 20, 55, 25, 25, 30, 205);
+VALUES ('Metapod', '', 50, 20, 55, 25, 25, 30, 205);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Butterfree', 60, 45, 50, 90, 80, 70, 395);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
