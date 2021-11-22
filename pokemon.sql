@@ -177,111 +177,111 @@ VALUES ('Blastoise', 'Para acabar con su enemigo, lo aplasta con el peso de su c
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Caterpie', 'Para protegerse, despide un hedor horrible por las antenas con el que repele a sus enemigos.', 45, 30, 35, 20, 20, 45, 195);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Metapod', '', 50, 20, 55, 25, 25, 30, 205);
+VALUES ('Metapod', 'Como en este estado solo puede endurecer su coraza, permanece inmóvil a la espera de evolucionar.', 50, 20, 55, 25, 25, 30, 205);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Butterfree', 60, 45, 50, 90, 80, 70, 395);
+VALUES ('Butterfree', 'Aletea a gran velocidad para lanzar al aire sus escamas extremadamente tóxicas.', 60, 45, 50, 90, 80, 70, 395);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Weedle', 40, 35, 30, 20, 20, 50, 195);
+VALUES ('Weedle', 'El aguijón de la cabeza es muy puntiagudo. Se alimenta de hojas oculto en la espesura de bosques y praderas.', 40, 35, 30, 20, 20, 50, 195);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Kakuna', 45, 25, 50, 25, 25, 35, 205);
+VALUES ('Kakuna', 'Aunque es casi incapaz de moverse, en caso de sentirse amenazado puede envenenar a los enemigos con su aguijón.', 45, 25, 50, 25, 25, 35, 205);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Beedrill', 65, 90, 40, 45, 80, 75, 395);
+VALUES ('Beedrill', 'Tiene tres aguijones venenosos, dos en las patas anteriores y uno en la parte baja del abdomen, con los que ataca a sus enemigos una y otra vez.', 65, 90, 40, 45, 80, 75, 395);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Pidgey', 40, 45, 40, 35, 35, 56, 251);
+VALUES ('Pidgey', 'Su docilidad es tal que suelen defenderse levantando arena en lugar de contraatacar.', 40, 45, 40, 35, 35, 56, 251);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Pidgeotto', 63, 60, 55, 50, 50, 71, 349);
+VALUES ('Pidgeotto', 'Su extraordinaria vitalidad y resistencia le permiten cubrir grandes distancias del territorio que habita en busca de presas.', 63, 60, 55, 50, 50, 71, 349);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Pidgeot', 83, 80, 75, 70, 70, 101, 479);
+VALUES ('Pidgeot', 'Este Pokémon vuela a una velocidad de 2 match en busca de presas. Sus grandes garras son armas muy peligrosas.', 83, 80, 75, 70, 70, 101, 479);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Rattata', 30, 56, 35, 25, 35, 72, 253);
+VALUES ('Rattata', 'Es propenso a hincar los incisivos en cualquier cosa que se le ponga por delante. Si se ve alguno, seguramente haya cuarenta cerca.', 30, 56, 35, 25, 35, 72, 253);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Raticate', 55, 81, 60, 50, 70, 97, 413);
+VALUES ('Raticate', 'Gracias a las pequeñas membranas de las patas traseras, puede nadar por los ríos para capturar presas.', 55, 81, 60, 50, 70, 97, 413);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Spearow', 40, 60, 30, 31, 31, 70, 262);
+VALUES ('Spearow', 'A la hora de proteger su territorio, compensa su incapacidad para volar a gran altura con una increíble velocidad.', 40, 60, 30, 31, 31, 70, 262);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Fearow', 65, 90, 65, 61, 61, 100, 442);
+VALUES ('Fearow', 'Este Pokémon ha existido desde tiempos remotos. Al menor atisbo de peligro, alza el vuelo y huye.', 65, 90, 65, 61, 61, 100, 442);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Ekans', 35, 60, 44, 40, 54, 55, 288);
+VALUES ('Ekans', 'La longitud de este Pokémon aumenta con el tiempo. Por la noche, se enrosca en las ramas de los árboles para descansar.', 35, 60, 44, 40, 54, 55, 288);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Arbok', 60, 95, 69, 65, 79, 80, 448);
+VALUES ('Arbok', 'Se han llegado a identificar hasta seis variaciones distintas de las espeluznantes dibujos de su piel.', 60, 95, 69, 65, 79, 80, 448);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Pikachu', 35, 55, 40, 50, 50, 90, 320);
+VALUES ('Pikachu', 'Cuanto más potente es la energía que genera este Pokémon, más suaves y elásticas se vuelven las bolsas de sus mejillas.', 35, 55, 40, 50, 50, 90, 320);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Raichu', 60, 90, 55, 90, 80, 110, 485);
+VALUES ('Raichu', 'Su larga cola le sirve como toma de tierra para protegerse a sí mismo del alto voltaje que genera su cuerpo.', 60, 90, 55, 90, 80, 110, 485);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Sandshrew', 50, 75, 85, 20, 30 ,40, 300);
+VALUES ('Sandshrew', 'Le gusta revolcarse por la arena seca para eliminar todo rastro de suciedad y humedad en la piel.', 50, 75, 85, 20, 30 ,40, 300);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Sandslash', 75, 100, 110, 45, 55, 65, 450);
+VALUES ('Sandslash', 'Cuanto más seco es el terreno en el que habita, más duras y lisas se vuelven las púas que le recubren la espalda.', 75, 100, 110, 45, 55, 65, 450);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Nidoran Hembra', 55, 47, 52, 40, 40, 41, 275);
+VALUES ('Nidoran Hembra', 'Posee un olfato más fino que los machos. Usa los bigotes para recibir la dirección del viento y buscar comida a sotavento de sus depredadores.', 55, 47, 52, 40, 40, 41, 275);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Nidorina', 70, 62, 67, 55, 55, 56, 365);
+VALUES ('Nidorina', 'Se cree que el cuerno de la frente se le ha atrofiado para evitar herir a sus crías al alimentarlas.', 70, 62, 67, 55, 55, 56, 365);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Nidoqueen', 90, 92, 87, 75, 85, 76, 505);
+VALUES ('Nidoqueen', 'Su defensa destaca sobre la capcidad ofensiva. Usa las escamas del cuerpo como una coraza para proteger a su prole de cualquier ataque.', 90, 92, 87, 75, 85, 76, 505);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Nidoran Macho', 46, 57, 40, 40, 40, 50, 273);
+VALUES ('Nidoran Macho', 'Mantiene sus grandes orejas levantadas, siempre alerta. Si advierte peligro, ataca inoculando una potente toxina con su cuerno frontal.', 46, 57, 40, 40, 40, 50, 273);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Nidorino', 61, 72, 57, 55, 55, 65, 365);
+VALUES ('Nidorino', 'Dondequiera que va, parte rocas con su cuerno, más duro que un diamante, en busca de una Piedra Lunar.', 61, 72, 57, 55, 55, 65, 365);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Nidoking', 81, 102, 77, 85, 75, 85, 505);
+VALUES ('Nidoking', 'Una vez que se desboca, no hay quien lo pare. Solo se calma ante Nidoqueen, su compañera de toda la vida.', 81, 102, 77, 85, 75, 85, 505);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Clefairy', 70, 45, 48, 60, 65, 35, 323);
+VALUES ('Clefairy', 'Se dice que la felicidad llegará a quien vea un grupo de Clefairy bailando a la luz de la luna llena.', 70, 45, 48, 60, 65, 35, 323);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Clefable', 95, 70, 73, 95, 90, 60, 483);
+VALUES ('Clefable', 'Este Pokémon de aspecto féerico, raramente visto por los humanos, corrre a esconderse en cuanto detecta que hay alguien cerca.', 95, 70, 73, 95, 90, 60, 483);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Vulpix', 38, 41, 40, 50, 65, 65, 299);
+VALUES ('Vulpix', 'De pequeño, tiene seis colas de gran belleza. A medida que crece, le van saliendo más.', 38, 41, 40, 50, 65, 65, 299);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Ninetales', 73, 76, 75, 81, 100, 100, 505);
+VALUES ('Ninetales', 'Cuentan que llega a vivir hasta mil años y que cada una de las colas posee poderes sobrenaturales.', 73, 76, 75, 81, 100, 100, 505);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Jigglypuff', 115, 45, 20, 45, 25, 20, 270);
+VALUES ('Jigglypuff', 'Su capacidad pulmonar es excepcional, incluso para un Pokémon. Es capaz de cantar nanas sin cesar hasta que su rival se duerma.', 115, 45, 20, 45, 25, 20, 270);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Wigglytuff', 140, 70, 45, 85, 50, 45, 436);
+VALUES ('Wigglytuff', 'Cuanto más aire inhala, más aumenta de tamaño. Si se enfada, hincha el cuerpo con el fin de intimidar a su oponente.', 140, 70, 45, 85, 50, 45, 436);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Zubat', 40, 45, 35, 30, 40, 55, 245);
+VALUES ('Zubat', 'Emite ondas ultrasónicas por la boca para escrutar el entorno, lo que le permite volar con pericia por cuevas angostas.', 40, 45, 35, 30, 40, 55, 245);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Golbat', 75, 80, 70, 65, 75, 90, 455);
+VALUES ('Golbat', 'Le encanta chuparles la sangre a los seres vivos. En ocasiones comparte la preciada colecta con otros congéneres hambrientos.', 75, 80, 70, 65, 75, 90, 455);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Oddish', 45, 50, 55, 75, 65, 30, 320);
+VALUES ('Oddish', 'Se mueve al exponerse a la luz de la luna. Merodea por la noche para esparcir sus semillas.', 45, 50, 55, 75, 65, 30, 320);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Gloom', 60, 65, 70, 85, 75, 40, 395);
+VALUES ('Gloom', 'Libera un fétido olor por los pistilos. El fuerte hedor hace perder el conocimiento a cualquiera que se encuentre en un radio de 2 km.', 60, 65, 70, 85, 75, 40, 395);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Vileplume', 75, 80, 85, 110, 90, 50, 490);
+VALUES ('Vileplume', 'Tiene los pétalos más grandes del mundo. Al caminar, de ellos se desprenden densas nubes de polen tóxico.', 75, 80, 85, 110, 90, 50, 490);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Paras', 35, 70, 55, 45, 55, 25, 285);
+VALUES ('Paras', 'Escarba en el suelo para extraer nutrientes de las raíces de los árboles, que las setas del lomo absorben después casi por completo.', 35, 70, 55, 45, 55, 25, 285);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Parasect', 60, 95, 80, 60, 80, 30, 405);
+VALUES ('Parasect', 'Tras largo tiempo absorbiendo la energía del huésped, la seta parásita del lomo es la que parece controlar la voluntad de este Pokémon.', 60, 95, 80, 60, 80, 30, 405);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Venonat', 60, 55, 50, 40, 55, 45, 305);
+VALUES ('Venonat', 'Sus grandes ojos actúan como radares. A plena luz se percibe que son, en realidad, grupos de ojos diminutos.', 60, 55, 50, 40, 55, 45, 305);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Venomoth', 70, 65, 60, 90, 75, 90, 450);
+VALUES ('Venomoth', 'Las alas desprenden un polvillo de escamas impregnando de toxinas que se adhiere al contacto y resulta difícil de quitar.', 70, 65, 60, 90, 75, 90, 450);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Diglett', 10, 55, 25, 35, 45, 95, 265);
+VALUES ('Diglett', 'Si un Diglett excava un terreno, lo deja perfectamente arado y preparado para sembrado.', 10, 55, 25, 35, 45, 95, 265);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Dugtrio', 35, 100, 50, 50, 70, 120, 425);
+VALUES ('Dugtrio', 'Un trío de Diglett. Causa enormes terremotos al cavar en el subsuelo a profundidades de hasta 100 km.', 35, 100, 50, 50, 70, 120, 425);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Meowth', 40, 45, 35, 40, 40, 90, 290);
+VALUES ('Meowth', 'Le encanta reunir objetos brillantes. Cuando está de buen humor, hasta le muestra la colección a su Entrenador.', 40, 45, 35, 40, 40, 90, 290);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Persian', 65, 70, 60, 65, 65, 115, 440);
+VALUES ('Persian', 'Trabar amistad con este Pokémon es una ardua tarea debido a su enorme orgullo. Cuando algo no le place, saca las uñas de inmediato.', 65, 70, 60, 65, 65, 115, 440);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Psyduck', 50, 52, 48, 65, 50, 55, 320);
+VALUES ('Psyduck', 'Siempre padece dolores de cabeza. Tras desatar sus misteriosos poderes, la jaqueca remite unos instantes.', 50, 52, 48, 65, 50, 55, 320);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Golduck', 80, 82, 78, 95, 80, 85, 500);
+VALUES ('Golduck', 'Habita en ríos de aguas plácidas. Sus largas extremidades le permiten nadar con gracilidad.', 80, 82, 78, 95, 80, 85, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Mankey', 40, 80, 35, 35, 45, 70, 305);
+VALUES ('Mankey', 'Este ágil Pokémon vive en los árboles. Se enfada con facilidad y, cuando lo hace, se abalanza contra todo lo que se encuentre a su alrededor.', 40, 80, 35, 35, 45, 70, 305);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Primeape', 65, 105, 60, 60, 70, 95, 455);
+VALUES ('Primeape', 'Solo se calma cuando no hay nadie cerca, por lo que llegar a ver ese momento resulta verdaderamente difícil.', 65, 105, 60, 60, 70, 95, 455);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Growlithe', 55, 70, 45, 70, 50, 60, 360);
+VALUES ('Growlithe', 'De naturaleza valiente y honrada, se enfrenta sin miedo a enemigos más grandes y fuertes.', 55, 70, 45, 70, 50, 60, 360);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Arcanine', 90, 110, 80, 100, 80, 95, 555);
+VALUES ('Arcanine', 'Es capaz de correr 10 000 km al días, lo que deja embelesados a todos los que lo ven pasar.', 90, 110, 80, 100, 80, 95, 555);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Poliwag', 40, 50, 40, 40, 40, 90, 300);
+VALUES ('Poliwag', 'Es más ágil en el agua que en la tierra. La espiral de su vientre no es más que parte de sus vísceras que se ven a través de la piel.', 40, 50, 40, 40, 40, 90, 300);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Poliwhirl', 65, 65, 65, 50, 50, 90, 385);
+VALUES ('Poliwhirl', 'Mirar fijamente la espiral de su vientre provoca somnolencia, por lo que puede usarse como alternativa a las nanas para dormir a los niños.', 65, 65, 65, 50, 50, 90, 385);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Poliwrath', 90, 95, 95, 70, 90, 70, 510);
+VALUES ('Poliwrath', 'Su cuerpo es puro músculo. Logra abrirse paso por aguas gélidas partiendo el hielo con sus fornidos brazos.', 90, 95, 95, 70, 90, 70, 510);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Abra', 25, 20, 15, 105, 55, 90, 310);
+VALUES ('Abra', '', 25, 20, 15, 105, 55, 90, 310);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Kadabra', 40, 35, 30, 120, 70, 105, 400);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
