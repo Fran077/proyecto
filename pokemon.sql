@@ -347,49 +347,49 @@ VALUES ('Gengar', 'Las noches de luna llena, a este Pokémon le gusta imitar las
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Onix', 'Al abrirse paso bajo tierra, va absorbiendo todo lo que encuentra. Eso hace que su cuerpo sea así de sólido.', 35, 45, 160, 30, 45, 70, 385);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Drowzee', 60, 48, 45, 43, 90, 42, 328);
+VALUES ('Drowzee', 'Si se duerme siempre en compañía de un Pokémon de esta especie, puede mostrar sueños que haya ingerido con anterioridad.', 60, 48, 45, 43, 90, 42, 328);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Hypno', 85, 73, 70, 73, 115, 67, 483);
+VALUES ('Hypno', 'Conviene evitar el contacto visual en caso de encontrarse con este Pokémon, ya que puede hipnotizar con su péndulo.', 85, 73, 70, 73, 115, 67, 483);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Krabby', 30, 105, 90, 25, 25, 50, 325);
+VALUES ('Krabby', 'Es fácil encontrarlo cerca del mar. Las largas pinzas que tiene vuelven a crecer si se las quitan de su sitio.', 30, 105, 90, 25, 25, 50, 325);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Kingler', 55, 130, 115, 50, 50, 75, 475);
+VALUES ('Kingler', 'La pinza tan grande que tiene posee una fuerza de 10 000 CV, pero le cuesta moverla por su gran tamaño.', 55, 130, 115, 50, 50, 75, 475);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Voltorb', 40, 30, 50, 55, 55, 100, 330);
+VALUES ('Voltorb', 'Se dice que se camufla como una Poké Ball. Al más mínimo estímulo se autodestruirá.', 40, 30, 50, 55, 55, 100, 330);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Electrode', 60, 50, 70, 80, 80, 150, 490);
+VALUES ('Electrode', 'Almacena tal cantidad de energía eléctrica en su cuerpo que el más leve impacto puede provocar una gran explosión.', 60, 50, 70, 80, 80, 150, 490);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Exeggcute', 60, 40, 80, 60, 45, 40, 325);
+VALUES ('Exeggcute', 'Pese a su aspecto de mera piña de huevos, se trata de un Pokémon. Al parecer, sus cabezas se comunican entre sí por telepatía.', 60, 40, 80, 60, 45, 40, 325);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Exeggutor', 95, 95, 85, 125, 75, 55, 530);
+VALUES ('Exeggutor', 'Cada una de las tres cabezas piensa de forma independiente y apenas muestra interés por el resto.', 95, 95, 85, 125, 75, 55, 530);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Cubone', 50, 50, 95, 40, 50, 35, 320);
+VALUES ('Cubone', 'Cuando llora al acordarse de su madre fallecida, su llanto resuena en el cráneo que lleva en la cabeza.', 50, 50, 95, 40, 50, 35, 320);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Marowak', 60, 80, 110, 50, 80, 45, 425);
+VALUES ('Marowak', 'Ha evolucionado tras fortalecerse y superar su pena. Ahora lucha con arrojo blandiendo su hueso a modo de arma.', 60, 80, 110, 50, 80, 45, 425);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Hitmonlee', 50, 120, 53, 35, 110, 87, 485);
+VALUES ('Hitmonlee', 'Este Pokémon tiene un sentido del equilibrio increíble. Puede dar patadas desde cualquier posición.', 50, 120, 53, 35, 110, 87, 485);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Hitmonchan', 50, 105, 79, 35, 110, 76, 455);
+VALUES ('Hitmonchan', 'Sus puñetazos cortan el aire. Son tan veloces que el mínimo roce podría causar una quemadura.', 50, 105, 79, 35, 110, 76, 455);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Lickitung', 90, 55, 75, 60, 75, 30, 385);
+VALUES ('Lickitung', 'Si sus lametones no se tratan a tiempo, su saliva pegajosa y urticante puede provocar picores persistentes.', 90, 55, 75, 60, 75, 30, 385);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Koffing', 40, 65, 95, 60, 45, 35, 340);
+VALUES ('Koffing', 'Su cuerpo está lleno a rebosar de gas venenoso. Acude a los vertederos atraído por el putrefacto olor que emana de los desperdicios.', 40, 65, 95, 60, 45, 35, 340);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Weezing', 65, 90, 120, 85, 70, 60, 490);
+VALUES ('Weezing', 'Usa sus dos cuerpos para mezclar gases. Según parece, en el pasado podían hallarse ejemplares por todos los rincones de Kanto.', 65, 90, 120, 85, 70, 60, 490);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Rhyhorn', 80, 85, 95, 30, 30, 25, 345);
+VALUES ('Rhyhorn', 'Su inteligencia es limitada, aunque posee una fuerza tan considerable que le permite incluso derribar rascacielos con solo embestirlos.', 80, 85, 95, 30, 30, 25, 345);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Rhydon', 105, 130, 120, 45, 45, 40, 485);
+VALUES ('Rhydon', 'Cuando evoluciona, comienza a andar con las patas traseras. Es capaz de horadar rocas con el cuerno que tiene.', 105, 130, 120, 45, 45, 40, 485);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Chansey', 250, 5, 5, 35, 105, 50, 450);
+VALUES ('Chansey', 'Los huevos que pone Chansey tienen un valor nutritivo altísimo y un sabor exquisito. Se consideran un manjar.', 250, 5, 5, 35, 105, 50, 450);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Tangela', 65, 55, 115, 100, 40, 60, 435);
+VALUES ('Tangela', 'Sus lianas no dejan de crecer aunque se le desprendan. Aún se desconoce qué aspecto tiene sin ellas.', 65, 55, 115, 100, 40, 60, 435);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Kangaskhan', 105, 95, 80, 40, 80, 90, 490);
+VALUES ('Kangaskhan', 'Aunque lleve una cría en el marsupio, su juego de pies no pierde ligereza. Abruma al rival con ráfagas de ágiles puñetazos.', 105, 95, 80, 40, 80, 90, 490);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Horsea', 30, 40, 70, 70, 25, 60, 295);
+VALUES ('Horsea', 'Habita en mares de aguas tranquilas. Si se siente en peligro, expulsará por la boca una densa tinta negra para poder huir.', 30, 40, 70, 70, 25, 60, 295);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Seadra', 55, 65, 95, 95, 45, 85, 440);
+VALUES ('Seadra', 'En esta especie, es el macho quien se ocupa de la prole. Durante la época de cría, el veneno de las púas de su espalda se vuelve más potente.', 55, 65, 95, 95, 45, 85, 440);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Goldeen', 45, 67, 60, 35, 50, 63, 320);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
