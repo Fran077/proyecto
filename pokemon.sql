@@ -391,23 +391,23 @@ VALUES ('Horsea', 'Habita en mares de aguas tranquilas. Si se siente en peligro,
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Seadra', 'En esta especie, es el macho quien se ocupa de la prole. Durante la época de cría, el veneno de las púas de su espalda se vuelve más potente.', 55, 65, 95, 95, 45, 85, 440);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Goldeen', 45, 67, 60, 35, 50, 63, 320);
+VALUES ('Goldeen', 'Sus aletas pectorales, caudal y dorsal ondean gráciles en el agua. Por eso se le llama el Bailarín Acuático.', 45, 67, 60, 35, 50, 63, 320);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Seaking', 80, 92, 65, 65, 80, 68, 450);
+VALUES ('Seaking', 'En otoño gana algo de peso para atraer a posibles parejas y se cubre de llamativos colores.', 80, 92, 65, 65, 80, 68, 450);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Staryu', 30, 45, 55, 70, 55, 85, 340);
+VALUES ('Staryu', 'A finales de verano, se pueden ver grupos de Staryu en la orilla de la playa sincronizando el brillo de sus núcleos a ritmo regular.', 30, 45, 55, 70, 55, 85, 340);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Starmie', 60, 75, 85, 100, 85, 115, 520);
+VALUES ('Starmie', 'Su órgano central, conocido como núcleo, brilla con los colores del arcoíris cuando se dispone a liberar usu potentes poderes psíquicos.', 60, 75, 85, 100, 85, 115, 520);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Mr Mime', 40, 45, 65, 100, 120, 90, 460);
+VALUES ('Mr Mime', 'Muchos estudiosos sostienen que el desarrollo de sus enormes manos se debe a su afán por practicar la pantomima.', 40, 45, 65, 100, 120, 90, 460);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Scyther', 70, 110, 80, 55, 80, 105, 500);
+VALUES ('Scyther', 'Sus guadañas se vuelven más afiladas con cada combate. Es capaz de rebanar troncos gruesos de un tajo.', 70, 110, 80, 55, 80, 105, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Jynx', 65, 50, 35, 115, 95, 95, 455);
+VALUES ('Jynx', 'En cierta parte de Kanto se conocía a Jynx como la Reina del Hielo y se reverenciaba con cierto temor.', 65, 50, 35, 115, 95, 95, 455);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Electabuzz', 65, 83, 57, 95, 85, 105, 490);
+VALUES ('Electabuzz', 'Es habitual que las centrales eléctricas cuenten con Pokémon de tipo Tierra para hacer frente a los Electabuzz ávidos de electricidad.', 65, 83, 57, 95, 85, 105, 490);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Magmar', 65, 95, 57, 100, 85, 93, 495);
+VALUES ('Magmar', 'Abate a sus presas con las llamas que genera y con frecuencia acaba reduciéndolas a carbonilla por accidente.', 65, 95, 57, 100, 85, 93, 495);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Pinsir', 65, 125, 100, 55, 70, 85, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
