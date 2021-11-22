@@ -281,71 +281,71 @@ VALUES ('Poliwhirl', 'Mirar fijamente la espiral de su vientre provoca somnolenc
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Poliwrath', 'Su cuerpo es puro músculo. Logra abrirse paso por aguas gélidas partiendo el hielo con sus fornidos brazos.', 90, 95, 95, 70, 90, 70, 510);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Abra', '', 25, 20, 15, 105, 55, 90, 310);
+VALUES ('Abra', 'Es capaz de usar sus poderes psíquicos aun estando dormido. Al parecer, el contenido del sueño influye en sus facultades.', 25, 20, 15, 105, 55, 90, 310);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Kadabra', 40, 35, 30, 120, 70, 105, 400);
+VALUES ('Kadabra', 'Duerme suspendido en el aire gracias a sus poderes psíquicos. La cola, de una flaxibilidad extraordinaria, hace las veces de almohada.', 40, 35, 30, 120, 70, 105, 400);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Alakazam', 55, 50, 45, 135, 95, 120, 500);
+VALUES ('Alakazam', 'Posee una capacidad intelectual fuera de lo común que le permite recordar todo lo sucedido desde el instante de su nacimiento.', 55, 50, 45, 135, 95, 120, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Machop', 70, 80, 50, 35, 35, 35, 305);
+VALUES ('Machop', 'Es una masa de músculos y, pese a su pequeño tamaño, tiene fuerza de sobra para levantar en brazos a 100 personas.', 70, 80, 50, 35, 35, 35, 305);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Machoke', 80, 100, 70, 50, 60, 45, 405);
+VALUES ('Machoke', 'Su musculoso cuerpo es tan fuerte que usa un cinto antifuerza para controlar sus movimientos.', 80, 100, 70, 50, 60, 45, 405);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Machamp', 90, 130, 80, 65, 85, 55, 505);
+VALUES ('Machamp', 'Mueve rápidamente sus cuatro brazos para asestar incesantes golpes y puñetazos desde todos los ángulos.', 90, 130, 80, 65, 85, 55, 505);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Bellsprout', 50, 75, 35, 70, 30, 40, 300);
+VALUES ('Bellsprout', 'Prefiere lugares cálidos y húmedos. Atrapa pequeños Pokémon insectos con sus lianas para devorarlos.', 50, 75, 35, 70, 30, 40, 300);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Weepinbell', 65, 90, 50, 85, 45, 55, 390);
+VALUES ('Weepinbell', 'Cuando tiene hambre, engulle a todo lo que se mueve. La pobre presa acaba disuelta en sus ácidos.', 65, 90, 50, 85, 45, 55, 390);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Victreebel', 80, 105, 65, 100, 70, 70, 480);
+VALUES ('Victreebel', 'Atrae a su presa con un dulce aroma a miel. Una vez atrapada en la boca, la disuelve en tan solo un día, huesos incluídos.', 80, 105, 65, 100, 70, 70, 480);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Tentacool', 40, 40, 35, 50, 100, 70, 335);
+VALUES ('Tentacool', 'Sus facultades natatorias son más bien escasas, por lo que se limita a flotar a la deriva en aguas poco profundas en busca de alimento.', 40, 40, 35, 50, 100, 70, 335);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Tentacruel', 80, 70, 65, 80, 120, 100, 515);
+VALUES ('Tentacruel', 'Si las esferas rojas que tiene a ambos lados de la cabeza brillan con intensidad, indica que está a punto de lanzar ondas ultrasónicas.', 80, 70, 65, 80, 120, 100, 515);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Geodude', 40, 80, 100, 30, 30, 20, 300);
+VALUES ('Geodude', 'Se suele encontrar en senderos de montaña y sitios parecidos. Conviene andar con cuidado para no pisarlo sin querer y provocar su enfado.', 40, 80, 100, 30, 30, 20, 300);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Graveler', 55, 95, 115, 45, 45, 35, 390);
+VALUES ('Graveler', 'Se le suele ver rodando montaña abajo. No evita los obstáculos, sino que los arrolla.', 55, 95, 115, 45, 45, 35, 390);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Golem', 80, 120, 130, 55, 65, 45, 495);
+VALUES ('Golem', 'Nada más mudar la piel, su cuerpo se vuelve blando y blanquecino, pero se endurece al poco tiempo de entrar en contacto con el aire.', 80, 120, 130, 55, 65, 45, 495);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Ponyta', 50, 85, 55, 65, 65, 90, 410);
+VALUES ('Ponyta', 'Al nacer es un poco lento, pero va fortaleciendo las patas paulatinamente al disputar carreras con sos congéneres.', 50, 85, 55, 65, 65, 90, 410);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Rapidash', 65, 100, 70, 80, 80, 105, 500);
+VALUES ('Rapidash', 'Su ardiente crin ondea al viento mientras atraviesa extensas praderas a una velocidad de 240 km/h.', 65, 100, 70, 80, 80, 105, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Slowpoke', 90, 65, 65, 40, 40, 15, 315);
+VALUES ('Slowpoke', 'Es lento y abstraído. Aunque le devoren la cola, ni siquiera se percata, ya que no siente ningún dolor. Tampoco nota cuando le vuelve a crecer.', 90, 65, 65, 40, 40, 15, 315);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Slowbro', 95, 75, 110, 100, 80, 30, 490);
+VALUES ('Slowbro', 'Ha evolucionado después de que lo mordiera un Shellder, al cual le embelesa la sustancia que secreta por la cola.', 95, 75, 110, 100, 80, 30, 490);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Magnemite', 25, 35, 70, 95, 55, 45, 325);
+VALUES ('Magnemite', 'A veces se desploma al suelo tras agotar su suministro eléctrico interno, pero basta una pequeña batería para reanimarlos.', 25, 35, 70, 95, 55, 45, 325);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Magneton', 50, 60, 95, 120, 70, 70, 485);
+VALUES ('Magneton', 'Este Pokémon surgido de la unión de tres Magnemite, genera potentes ondas de radio con las que examina el entorno.', 50, 60, 95, 120, 70, 70, 485);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Farfetchd', 52, 90, 55, 58, 62, 60, 377);
+VALUES ('Farfetchd', 'Blande el puerro que sujeta con un ala como si se tratase de una espada para rebanar a su rival. En caso de necesidad, se lo come para nutrirse.', 52, 90, 55, 58, 62, 60, 377);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Doduo', 35, 85, 45, 35, 35, 75, 310);
+VALUES ('Doduo', 'Las diminutas alas apenas le permiten volar, pero puede correr a gran velocidad gracias a sus patas hiperdesarrolladas.', 35, 85, 45, 35, 35, 75, 310);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Dodrio', 60, 110, 70, 60, 60, 110, 470);
+VALUES ('Dodrio', 'Este Pokémon surge al dividirse una de las cabezas de Doduo. Es capas de correr por las praderas a 60 km/h.', 60, 110, 70, 60, 60, 110, 470);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Seel', 65, 45, 55, 45, 70, 45, 325);
+VALUES ('Seel', 'Le encantan los lugares gélidos y disfruta nadando en aguas a temperaturas en torno a los -10 ºC.', 65, 45, 55, 45, 70, 45, 325);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Dewgong', 90, 70, 80, 70, 95, 70, 475);
+VALUES ('Dewgong', 'Su cuerpo es blanco como la nieve. Puede nadar plácidamente en mares gélidos gracias a su resistencia al frío.', 90, 70, 80, 70, 95, 70, 475);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Grimer', 80, 80, 50, 40, 50, 25, 325);
+VALUES ('Grimer', 'Está hecho de lodo endurecido. Pocos se atreven a tocarlo debido a su pestilencia y composición nociva. Allá por donde pasa no crece la hierba.', 80, 80, 50, 40, 50, 25, 325);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Muk', 105, 105, 75, 65, 100, 50, 500);
+VALUES ('Muk', 'Huele tan mal que puede provocar desmayos. Su nariz se ha atrofiado de tal manera que ha perdido por completo el sentido del olfato.', 105, 105, 75, 65, 100, 50, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Shellder', 30, 65, 100, 45, 25, 40, 305);
+VALUES ('Shellder', 'Nada hacia atrás abriendo y cerrando su concha. Es sorprendentemente rápido.', 30, 65, 100, 45, 25, 40, 305);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Cloyster', 50, 95, 180, 85, 45, 70, 525);
+VALUES ('Cloyster', 'La concha que lo cubre es extremadamente dura, hasta el punto de que ni siquiera una bomba puede destrozarla. Solo se cubre cuando ataca.', 50, 95, 180, 85, 45, 70, 525);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Gastly', 30, 35, 30, 100, 35, 80, 310);
+VALUES ('Gastly', 'Nació a partir de gases venenosos que asfixiarían a cualquiera que se viera envuelto en ellos.', 30, 35, 30, 100, 35, 80, 310);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Haunter', 45, 50, 45, 115, 55, 95, 405);
+VALUES ('Haunter', 'Su lengua está hecha de gas. Si lame a su víctima, esta susfrirá temblores hasta fallecer.', 45, 50, 45, 115, 55, 95, 405);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Gengar', 60, 65, 60, 130, 75, 110, 500);
+VALUES ('Gengar', 'Las noches de luna llena, a este Pokémon le gusta imitar las sombras de la gente y burlarse de sus miedos.', 60, 65, 60, 130, 75, 110, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Onix', 35, 45, 160, 30, 45, 70, 385);
+VALUES ('Onix', 'Al abrirse paso bajo tierra, va absorbiendo todo lo que encuentra. Eso hace que su cuerpo sea así de sólido.', 35, 45, 160, 30, 45, 70, 385);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Drowzee', 60, 48, 45, 43, 90, 42, 328);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
