@@ -409,55 +409,55 @@ VALUES ('Electabuzz', 'Es habitual que las centrales eléctricas cuenten con Pok
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
 VALUES ('Magmar', 'Abate a sus presas con las llamas que genera y con frecuencia acaba reduciéndolas a carbonilla por accidente.', 65, 95, 57, 100, 85, 93, 495);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Pinsir', 65, 125, 100, 55, 70, 85, 500);
+VALUES ('Pinsir', 'Los Pinsir se juzgan entre ellos por la robustez de la cornamenta. Cuanto más imponente sea, más agradará a susu congéneres del sexo opuesto.', 65, 125, 100, 55, 70, 85, 500);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Tauros', 75, 100, 95, 40, 70, 110, 490);
+VALUES ('Tauros', 'Conviene tener cuidado si empieza a fustigarse con las colas, pues es señal de que va a cargar a máxima velocidad.', 75, 100, 95, 40, 70, 110, 490);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Magikarp', 20, 10, 55, 15, 20, 80, 200);
+VALUES ('Magikarp', 'Es el Pokémon más débil y patético que existe, con una fuerza y velocidad prácticamente nulas.', 20, 10, 55, 15, 20, 80, 200);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Gyarados', 95, 125, 79, 60, 100, 81, 540);
+VALUES ('Gyarados', 'Es exageradamente agresivo. El Hiperrayo que lanza por la boca reduce a cenizas todo lo que encuentra.', 95, 125, 79, 60, 100, 81, 540);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Lapras', 130, 85, 80, 85, 95, 60, 535);
+VALUES ('Lapras', 'Este Pokémon posee una notable inteligencia y un corazón de oro. Entona un canto melodioso mientras surca el mar.', 130, 85, 80, 85, 95, 60, 535);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Ditto', 48, 48, 48, 48, 48, 48, 288);
+VALUES ('Ditto', 'Redistruye las células de su cuerpo para cobrar la apariencia de lo que ve, pero vuelve a la normalidad al relajarse.', 48, 48, 48, 48, 48, 48, 288);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Eevee', 55, 55, 50, 45, 65, 55, 325);
+VALUES ('Eevee', 'Es capaz de alterar la composición de su cuerpo para adaptarse al entorno.', 55, 55, 50, 45, 65, 55, 325);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Vaporeon', 130, 65, 60, 110, 95, 65, 525);
+VALUES ('Vaporeon', 'Cuando las aletas de Vaporeon comienzan a vibrar, significa que lloverá en las próximas horas.', 130, 65, 60, 110, 95, 65, 525);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Jolteon', 65, 65, 60, 110, 95, 130, 525);
+VALUES ('Jolteon', 'Si se enfada o asusta, se le eriza el pelaje. Cada uno de sus pelos se convierte en una afilada púa que hace trizas al rival.', 65, 65, 60, 110, 95, 130, 525);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Flareon', 65, 130, 60, 95, 110, 65, 525);
+VALUES ('Flareon', 'Una vez que ha almacenado el calor suficiente, puede alcanzar una temperatura de 900 ºC.', 65, 130, 60, 95, 110, 65, 525);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Porygon', 65, 60, 70, 85, 75, 40, 395);
+VALUES ('Porygon', 'Se trata del primer Pokémon del mundo creado a partir de códigos de programación gracias al uso de tecnología de vanguardia.', 65, 60, 70, 85, 75, 40, 395);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Omanyte', 35, 40, 100, 90, 55, 35, 355);
+VALUES ('Omanyte', 'Varios ejemplares han escapado o bien han sido liberados tras su restauración, lo que comienza a suscitar una serie de problemas.', 35, 40, 100, 90, 55, 35, 355);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Omastar', 70, 60, 125, 115, 70, 55, 495);
+VALUES ('Omastar', 'Se cree que se extinguió porque el excesivo tamaño y peso de su concha le impedían moverse con rapidez para capturar presas.', 70, 60, 125, 115, 70, 55, 495);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Kabuto', 30, 80, 90, 55, 45, 55, 385);
+VALUES ('Kabuto', 'Un Pokémon casi extinto. Cada tres días, muda el caparazón, que se va endurenciendo de forma progresiva.', 30, 80, 90, 55, 45, 55, 385);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Kabutops', 60, 115, 105, 65, 70, 80, 495);
+VALUES ('Kabutops', 'Despedaza a las presas que atrapa para sorber sus fluidos y deja los restos para que otros Pokémon den buena cuenta de ellos.', 60, 115, 105, 65, 70, 80, 495);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Aerodactyl', 80, 105, 65, 60, 75, 130, 515);
+VALUES ('Aerodactyl', 'Un feroz Pokémon de la época prehistórica al que no bastan todos los avances tecnológicos actuales para regenerar a la perfección.', 80, 105, 65, 60, 75, 130, 515);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Snorlax', 160, 110, 65, 65, 110, 30, 540);
+VALUES ('Snorlax', 'No se encuentra satisfecho hasta haber ingerido 400 kg de comida cada día. Cuando acaba de comer, se queda dormido.', 160, 110, 65, 65, 110, 30, 540);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Articuno', 90, 85, 100, 95, 125, 85, 580);
+VALUES ('Articuno', 'Se dice que sus bellas alas azules se componen de hielo. Vuela en torno a las montañas nevadas con su larga cola al viento.', 90, 85, 100, 95, 125, 85, 580);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Zapdos', 90, 90, 85, 125, 90, 100, 580);
+VALUES ('Zapdos', 'Posee el poder de controlar la electricidad a su antojo. Según la creencia popular, anida oculto en oscuros nubarrones de tormenta.', 90, 90, 85, 125, 90, 100, 580);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Moltres', 90, 100, 90, 125, 85, 90, 580);
+VALUES ('Moltres', 'Una de las aves legendarias. Al batir las alas, las llamas que las envuelven emiten un hermoso fulgor rojo.', 90, 100, 90, 125, 85, 90, 580);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Dratini', 41, 64, 45, 50, 50, 50, 300);
+VALUES ('Dratini', 'Habita en orillas junto a fuertes corrientes de agua, como bajo cascadas. Muda la piel una y otra vez a medida que crece.', 41, 64, 45, 50, 50, 50, 300);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Dragonair', 61, 84, 65, 70, 70, 70, 420);
+VALUES ('Dragonair', 'Vive en lagos y mares de aguas cristalinas. Su poder para controlar el clima le permite alzar el vuelo llevado por el viento.', 61, 84, 65, 70, 70, 70, 420);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Dragonite', 91, 134, 95, 100, 100, 80, 600);
+VALUES ('Dragonite', 'Un Pokémon bondadoso y compasivo al que le resulta imposible dar la espalda a Pokémon o humanos que se encuentren a la deriva.', 91, 134, 95, 100, 100, 80, 600);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Mewtwo', 106, 110, 90, 154, 90, 130, 680);
+VALUES ('Mewtwo', 'Su ADN es vasi el mismo que el de Mew. Sin embargo, su tamaño y carácter son muy diferentes.', 106, 110, 90, 154, 90, 130, 680);
 INSERT INTO Pokemon (Nombre, info, HP, ATAQUE, DEFENSA, A_ESPECIAL, D_ESPECIAL, VELOCIDAD, Total_Estat) 
-VALUES ('Mew', 100, 100, 100, 100, 100, 100, 600);
+VALUES ('Mew', 'Si se observa a través de un microscopio, puede distinguirse cuán corto, fino y delicado es el pelaje de este Pokémon.', 100, 100, 100, 100, 100, 100, 600);
 --Tabla evolución
 INSERT INTO Evolucion (Pokedex, id_pkmn_evo)
 VALUES (1, 2),
@@ -759,17 +759,17 @@ VALUES (1, 1, 1),
 (1, 7, 1);
 --Tabla ciudades
 INSERT INTO Ciudades (Nombre, id_region, info)
-VALUES ('Pueblo Paleta', 1),
-('Ciudad Verde', 1),
-('Ciudad Plateada', 1),
-('Ciudad Celeste', 1),
-('Pueblo Lavanda', 1),
-('Ciudad Azafrán', 1),
-('Ciudad Carmín', 1),
-('Ciudad Azulona', 1),
-('Ciudad Fucsia', 1),
-('Isla Canela', 1),
-('Meseta Añil', 1);
+VALUES ('Pueblo Paleta', 1, 'Pequeño pueblo situado en el suroeste de Kanto. Aquí se encuentra el laboratorio del Profesor Oak. Su lema es: <<Blanco, el color de partida.>>'),
+('Ciudad Verde', 1, 'Pequeña ciudad situada en el suroeste de Kanto. Aquí se encuentra el último gimnasio antes de acceder a la Liga Pokémon, se dice que el líder de gimnasio y sus Pokémon Tipo Tierra ocultan algo oscuro. Su lema es: <<La ciudad eternamente verde.>>'),
+('Ciudad Plateada', 1, 'Ciudad situada en el noroeste de Kanto. Te espera el primer desafío de la Liga Pokémon, Brock, el entrenador de Tipo Roca. Su lema es: <<Ciudad de riscos inaccesibles.>>'),
+('Ciudad Celeste', 1, 'Ciudad costera situada en el norte de Kanto. La líder de Tipo Agua, Misty, te golpeará como un tsunami. Su lema es: <<La ciudad floreciente de agua.>>'),
+('Ciudad Carmín', 1, 'Ciudad situada en la cosra de una bahía en el suroeste de Kanto donde podemos encontrar el puerto en el que atracan cruceros como el SS Anne. Tendrás que sobrevivir a una tormenta para conseguir la Medalla Trueno de manos del Teniente Surge. Su lema es: <<El puerto del ocaso.>>'),
+('Pueblo Lavanda', 1, 'Pueblo situado en el noreste de Kanto. Aquí se encuentra la Torre Pokémon, edificio por el cual se vela por las almas de los Pokémon muertos. Si algún Pokémon con sueño profundo bloquea tu camino, aquí puedes conseguir la Poké Flauta para despertarlo, pero ten cuidado, puede tener un mal despertar. Su lema es: <<La ciudad que emana nobleza.>>'),
+('Ciudad Azulona', 1, 'Ciudad situada en el centro de Kanto. Es la ciudad más habitada de la región, aunque no es la más grande en extensión. Es el hogar de Erika, la cuarta líder de Tipo Planta a la que enfrentarás en tu aventura hacia la Liga Pokémon.'),
+('Ciudad Fucsia', 1, ''),
+('Ciudad Azafrán', 1, ''),
+('Isla Canela', 1, ''),
+('Meseta Añil', 1, '');
 --Tabla Líderes
 INSERT INTO Lideres (Nombre, info, Medalla, id_ciudad)
 VALUES ('Brock', 'Medalla Roca', 3),
