@@ -765,21 +765,21 @@ VALUES ('Pueblo Paleta', 1, 'Pequeño pueblo situado en el suroeste de Kanto. Aq
 ('Ciudad Celeste', 1, 'Ciudad costera situada en el norte de Kanto. La líder de Tipo Agua, Misty, te golpeará como un tsunami. Su lema es: <<La ciudad floreciente de agua.>>'),
 ('Ciudad Carmín', 1, 'Ciudad situada en la cosra de una bahía en el suroeste de Kanto donde podemos encontrar el puerto en el que atracan cruceros como el SS Anne. Tendrás que sobrevivir a una tormenta para conseguir la Medalla Trueno de manos del Teniente Surge. Su lema es: <<El puerto del ocaso.>>'),
 ('Pueblo Lavanda', 1, 'Pueblo situado en el noreste de Kanto. Aquí se encuentra la Torre Pokémon, edificio por el cual se vela por las almas de los Pokémon muertos. Si algún Pokémon con sueño profundo bloquea tu camino, aquí puedes conseguir la Poké Flauta para despertarlo, pero ten cuidado, puede tener un mal despertar. Su lema es: <<La ciudad que emana nobleza.>>'),
-('Ciudad Azulona', 1, 'Ciudad situada en el centro de Kanto. Es la ciudad más habitada de la región, aunque no es la más grande en extensión. Es el hogar de Erika, la cuarta líder de Tipo Planta a la que enfrentarás en tu aventura hacia la Liga Pokémon.'),
-('Ciudad Fucsia', 1, ''),
-('Ciudad Azafrán', 1, ''),
-('Isla Canela', 1, ''),
-('Meseta Añil', 1, '');
+('Ciudad Azulona', 1, 'Ciudad situada en el centro de Kanto. Es la ciudad más habitada de la región, aunque no es la más grande en extensión. Es el hogar de Erika, la cuarta líder de Tipo Planta a la que enfrentarás en tu aventura hacia la Liga Pokémon. Su lema es: <<La gran ciudad irisada.>>'),
+('Ciudad Fucsia', 1, 'Ciudad situada en el sureste de Kanto. En esta ciudad se encuentra la Zona Safari, donde encontrarás especies exóticas de Pokémon. Más te vale llevar algún que otro antídoto si quieres la Medalla Alma de manos de Koga, líder de Tipo Veneno. Su lema es: <<Ciudad bulliciosa y próspera.>>'),
+('Ciudad Azafrán', 1, 'Ciudad situada en la parte central de Kanto. Los sitios de interés son: Silph SA, el Dojo Karate, el club de fans de entrenadores y el gimnasio de azafrán, custodiado por Sabrina y su equipo de Tipo Psíquico. Su lema es: <<La tierra dorada del comercio.>>'),
+('Isla Canela', 1, 'Única isla habitada de Kanto, situada en el suroeste de esta región. Aquí podrás encontrar el Laboratorio de Isla Canela, la Mansión Pokémon, que se dice que guarda un gran misterio, y el Gimnasio de Tipo Fuego, hogar de Blaine, el séptimo líder de gimnasio. Su lema es: <<La feroz ciudad del ardiente deseo.>>'),
+('Meseta Añil', 1, 'Lugar localizado al noroeste de Kanto. En ella se encuentra la Liga Pokémon, la meta final para los entrenadores Pokémon cuyo sueño es convertirse en el campeón. ¿Tienes lo que hace falta para derrotar al Alto Mando y al actual campeón?');
 --Tabla Líderes
 INSERT INTO Lideres (Nombre, info, Medalla, id_ciudad)
-VALUES ('Brock', 'Medalla Roca', 3),
-('Misty', 'Medalla Cascada', 4),
-('Lt. Surge', 'Medalla Trueno', 7),
-('Erika', 'Medalla Arcoíris', 8),
-('Koga', 'Medalla Alma', 9),
-('Sabrina', 'Medalla Pantano', 6),
-('Blaine', 'Medalla Volcán', 10),
-('Giovanni', 'Medalla Tierra', 2);
+VALUES ('Brock', 'Es el líder de gimnasio de Ciudad Plateada. Hace entrega de la Medalla Roca a los que consiguen derrotarle. Se especializa en Pokémon de Tipo Roca.', 'Medalla Roca', 3),
+('Misty', 'Es la líder de gimnasio de Ciudad Celeste. Es la encargada de salvaguardar y entregar la Medalla Cascada. Se especializa en Pokémon de Tipo Agua.', 'Medalla Cascada', 4),
+('Lt. Surge', 'Es el líder del gimnasio de Ciudad Carmín. Al ser derrotado hace entrega de la Medalla Trueno. Se especializa en Pokémon de Tipo Eléctrico.', 'Medalla Trueno', 7),
+('Erika', 'Es la líder del gimnasio de Ciudad Azulona. Al ser vencida te entrega la Medalla Arcoíris. Se especializa en Pokémon de Tipo Planta.', 'Medalla Arcoíris', 8),
+('Koga', 'Es el líder del gimnasio de Ciudad Fucsia. Cuando sales victorioso de la batalla, te entrega la Medalla Alma. Se especializa en Pokémon Tipo Veneno.', 'Medalla Alma', 9),
+('Sabrina', 'Es la líder del gimnasio de Ciudad Azafrán. Entrega la Medalla Pantano a aquellos entrenadores que la derroten. Se especializa en Pokémon de Tipo Psíquico.', 'Medalla Pantano', 6),
+('Blaine', 'Es el líder del gimnasio de Isla Canela y responsable de entregar la Medalla Volcán. Se especializa en Pokémon de Tipo Fuego.', 'Medalla Volcán', 10),
+('Giovanni', 'Es el líder del gimnasio de Ciudad Verde y de la banda criminal Team Rocket. Una vez derrotado te hace entrega de la Medalla Tierra. Se especializa en Pokémon de Tipo Tierra.', 'Medalla Tierra', 2);
 --Tabla lider_pokemon
 INSERT INTO Pokemon_Lider (id_lider, Pokedex)
 VALUES (1, 74),
@@ -834,18 +834,17 @@ VALUES ('Ruta 1', 1),
 ('Ruta 25', 1);
 --Tabla LugaresImportantes
 INSERT INTO LugaresImp (Nombre, id_region, info)
-VALUES ('Bosque Verde', 1),
-('Monte Moon', 1),
-('Cueva Celeste', 1),
-('Túnel Roca', 1),
-('Central Energía', 1),
-('Torre Pokémon', 1),
-('Cueva Diglett', 1),
-('Zona Safari', 1),
-('Mansión Pokemon', 1),
-('Islas Espuma', 1),
-('Calle Victoria', 1),
-('Meseta Añil', 1);
+VALUES ('Bosque Verde', 1, 'Es un bosque en el cual los árboles son muy gruesos, por lo que entra poca luz. En él se encuentran principalmente Pokémon de Tipo Bicho.'),
+('Monte Moon', 1, 'El Monte Moon es la única montaña de Kanto. Es famoso por la Piedra Lunar, que se cree que es, al menos, parte de algún meteorito que se estrelló en el monte.'),
+('Cueva Celeste', 1, 'Es una cueva terrestre y marítima. Debido a su alto nivel de peligro y los Pokémon que se encuentran en ella, solo se le permite la entrada al campeón de la Liga Pokémon.'),
+('Túnel Roca', 1, 'Túnel que recorre la Ruta 10 en su totalidad. Se trata de una zona completamente a oscuras, por lo que necesitarás algo para iluminar tu camino.'),
+('Central Energía', 1, 'Antigua central de energía abandonada. Hogar de Pokémon de Tipo Eléctrico como Voltorb y Electabuzz, atraídos por las fuentes eléctricas y los generadores. Se dice que un poderoso Pokémon se esconde en lo más profundo de la central.'),
+('Torre Pokémon', 1, 'Torre de ocho pisos situada en Pueblo Lavanda. Lugar de descanso eterno para los Pokémon difuntos. Se encuentra repleta de Pokémon de Tipo Fantasma.'),
+('Cueva Diglett', 1, 'Es un largo túnel cavado por Diglett y Dugtrio que va desde Ciudad Plateada hasta Ciudad Carmín, es un gran método de viaje si no se dispone de Pokémon con Surf o Vuelo.'),
+('Zona Safari', 1, 'Es recinto cerrado donde se pueden capturar especies exóticas de Pokémon de la región de Kanto. Se encuentra al norte Ciudad Fucsia.'),
+('Mansión Pokemon', 1, 'Es un lugar abandonado localizado en Isla Canela. De este lugar se han apropiado diversos Pokémon de Tipo Fuego y Tipo Veneno. También te puedes encontrar ladrones que buscan reliquias o el tesoro oculto de la mansión.'),
+('Islas Espuma', 1, ''),
+('Calle Victoria', 1, '');
 --Tabla RutaPokemon
 INSERT INTO Ruta_Pokemon (id_ruta, Pokedex)
 VALUES (1, 16),
