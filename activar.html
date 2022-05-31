@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <img src="logo.png">
+        <style>
+            .centro {
+                background-color: orange;
+                text-align: center;
+                width: 400px;
+                height: 300px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <style>
+            body {
+                background-image: url('illo.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+        <div class="centro">
+            <h1>Inserte su DNI</h1>
+            <form method="post" action="activar2.php">
+                <input type="text" name="dni" placeholder="Escriba aqu&iacute; su DNI" size="15" maxlenght="30" required /><br><br>
+                <button type="submit" name="register" value="register">Activar cuenta</button><br>
+            </form>
+            <form method="post" action="index.html">
+                <button type="submit" name="salir" value="salir">Salir</button>
+            </form>
+        </div>
+    </body>
+</html>

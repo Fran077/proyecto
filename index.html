@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <img src="logo.png">
+        <style>
+            .centro {
+                background-color: orange;
+                text-align: center;
+                width: 400px;
+                height: 300px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <style>
+            body {
+                background-image: url('illo.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+        <div class="centro">
+            <h1>Bienvenido a Pok&eacute;rescate</h1>
+            <form method="post" action="recibe.php">
+                <label><b>Nombre de Usuario:</label></b></label><br>
+                <input type="text" name="usu" placeholder="Escriba aqu&iacute; su nombre de usuario" size="30" maxlenght="30" required /><br><br>
+                <label><b>Contrase&ntilde;a:</b></label><br>
+                <input type="password" name="contra" placeholder="Escrba aqu&iacute; su contrase&ntilde;a" size="30" rquired /><br><br><br>
+                <button type="submit" name="register" value="register">Iniciar sesi&oacute;n</button><br><br>
+            </form>
+            <form method="post" action="nuevousu.php">
+                <button type="submit" name="crear" value="crear">Crear usuario</button>
+            </form>
+
+        </div>
+    </body>
+</html>
